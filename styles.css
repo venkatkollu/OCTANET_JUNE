@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
     background: #0d1b2a;
   }
   
-  /* Header styles */
+ 
   header {
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     position: fixed; /* Make header fixed */
     top: 0;
     width: 100%;
-    z-index: 1000; /* Ensure it stays on top of other elements */
+    z-index: 1000; 
   }
   
   .logo {
@@ -43,9 +43,9 @@
     color: #778da9;
   }
   
-  /* Add padding to the top of the body to avoid content hiding behind the fixed header */
+ 
   body {
-    padding-top: 80px; /* Adjust based on the header height */
+    padding-top: 80px; 
   }
   
   /* Hero section styles */
@@ -86,7 +86,7 @@
     background: #415a77;
   }
   
-  /* Featured NFTs section styles */
+  
   .featured-nfts {
     padding: 50px 0;
     background: #1b263b;
@@ -132,7 +132,7 @@
     transform: scale(1.05);
   }
   
-  /* Footer styles */
+  
   footer {
     padding: 20px;
     text-align: center;
